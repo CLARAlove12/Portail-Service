@@ -43,6 +43,57 @@ H3 = Santé
  H3 = Inscription au sport universitaire
 
 
+6) découpage de chaque écran en régions :  en-tête, navigation, contenu principal, contenu complémentaire,
+   pied de page et Note pour chaque écran la balise de chaque région
+
+#Accueil
+navigation:  logo, services, Mes demandes, Aide, Mon espace
+
+en-tête: Titre, mot d'accroche , search bar
+
+contenu principal : titre, catégories, plage de services, 
+
+pied de page: titres + détails
+
+#Demande
+
+navigation:  logo, services, Mes demandes, Aide, Mon espace
+
+contenu principal: 
+formulaire de coordonées,
+formulaire de demande,
+bouton  d'envoie de formulaire
+lien d'annulation du formulaire
+
+contenu complémentaire : prêt de caméra
+
+pied de page: titres et paragraphe
+
+#Mes demandes
+
+navigation:  logo, services, Mes demandes, Aide, Mon espace
+
+contenu principal: titre: mes demandes, mot de bienvenue, statut et search bar statut, tableau de l'historique service 
+
+pied de page: titres + détails
+
+#Services
+
+navigation:  logo, services, Mes demandes, Aide, Mon espace
+
+contenu principal: image descriptive, titre, titre prêt caméra, commentaire
+
+prêt de matériel: lieu , délai, places,
+deux boutons une faire une demande et une ajouter aux favoris, un titre
+ service en détail et paragraphe
+filter pour chaque catégorie 
+
+titre le service en détail et une paragraphe, 
+titre dans la même catégorie : catégories et description de chacune 
+
+pied de page: titres + paragraphe
+
+
 
 
 
