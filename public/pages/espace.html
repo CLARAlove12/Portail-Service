@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes demandes · Portail des services</title>
+</head>
+
+<body>
+
+    <!-- En-tête commun -->
+    <div id="header"></div>
+
+    <main id="contenu">
+
+        <h1>Mes demandes</h1>
+
+        <p>Bonjour Camille. Voici vos demandes de ce semestre.</p>
+
+        <!-- Zone principale -->
+        <section aria-label="Suivi de mes demandes">
+
+            <!-- Filtre par statut -->
+            <form action="#" method="get">
+                <label for="statut">Statut</label>
+
+                <select name="statut" id="statut">
+                    <option value="tous">Tous les statuts</option>
+                    <option value="acceptee">Acceptée</option>
+                    <option value="envoyee">Envoyée</option>
+                    <option value="refusee">Refusée</option>
+                </select>
+            </form>
+
+            <!-- Tableau des demandes -->
+            <table>
+                <caption>Liste de mes demandes</caption>
+
+                <thead>
+                    <tr>
+                        <th scope="col">Service</th>
+                        <th scope="col">Date</th>
+                        <th scope="col">Créneau</th>
+                        <th scope="col">Statut</th>
+                        <th scope="col">Actions</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th scope="row">Prêt de caméra</th>
+                        <td>14/10/2026</td>
+                        <td>Matin</td>
+                        <td>Acceptée</td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Réservation de salle</th>
+                        <td>15/10/2026</td>
+                        <td>Après-midi</td>
+                        <td>Envoyée</td>
+                        <td>
+                            <button type="button">Annuler</button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Inscription au sport universitaire</th>
+                        <td>20/10/2026</td>
+                        <td>Matin</td>
+                        <td>Refusée</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+        <!-- Préférences -->
+        <section aria-labelledby="preferences-title">
+
+            <h2 id="preferences-title">Mes préférences</h2>
+
+            <form action="#" method="post">
+
+                <fieldset>
+                    <legend>Thème</legend>
+
+                    <div>
+                        <input
+                            type="radio"
+                            id="theme-clair"
+                            name="theme"
+                            value="clair"
+                        >
+                        <label for="theme-clair">Clair</label>
+                    </div>
+
+                    <div>
+                        <input
+                            type="radio"
+                            id="theme-sombre"
+                            name="theme"
+                            value="sombre"
+                        >
+                        <label for="theme-sombre">Sombre</label>
+                    </div>
+
+                    <div>
+                        <input
+                            type="radio"
+                            id="theme-systeme"
+                            name="theme"
+                            value="systeme"
+                            checked
+                        >
+                        <label for="theme-systeme">Comme le système</label>
+                    </div>
+                </fieldset>
+
+                <div>
+                    <input
+                        type="checkbox"
+                        id="masquer-complets"
+                        name="masquer_complets"
+                        checked
+                    >
+                    <label for="masquer-complets">
+                        Masquer les services complets
+                    </label>
+                </div>
+
+            </form>
+
+            <p>Enregistrées sur cet appareil.</p>
+
+        </section>
+
+    </main>
+
+    <!-- Pied de page commun -->
+    <div id="footer"></div>
+
+    <script type="module" src="/src/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,332 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services · Portail des services</title>
+</head>
+
+<body>
+
+    <!-- Header chargé automatiquement -->
+    <div id="header"></div>
+
+    <main id="contenu">
+
+        <nav aria-label="Fil d'Ariane">
+            <ol>
+                <li><a href="./index.html">Accueil</a></li>
+                <li aria-current="page">Services</li>
+            </ol>
+        </nav>
+
+        <header>
+            <h1>Services</h1>
+            <p>17 services</p>
+        </header>
+
+        <div>
+
+            <!-- Filtres -->
+            <aside aria-labelledby="titre-filtres">
+
+                <h2 id="titre-filtres">Filtrer</h2>
+
+                <form action="./services.html" method="get">
+
+                    <fieldset>
+                        <legend>Catégorie</legend>
+
+                        <div>
+                            <input type="radio" id="toutes" name="categorie" value="toutes" checked>
+                            <label for="toutes">Toutes les catégories</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="materiel" name="categorie" value="materiel">
+                            <label for="materiel">Prêt de matériel</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="salles" name="categorie" value="salles">
+                            <label for="salles">Salles</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="logement" name="categorie" value="logement">
+                            <label for="logement">Logement</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="sport" name="categorie" value="sport">
+                            <label for="sport">Sport</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="aides" name="categorie" value="aides">
+                            <label for="aides">Aides</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="sante" name="categorie" value="sante">
+                            <label for="sante">Santé</label>
+                        </div>
+
+                    </fieldset>
+
+                    <div>
+                        <input type="checkbox" id="places" name="places" value="disponibles">
+                        <label for="places">Places disponibles uniquement</label>
+                    </div>
+
+                    <div>
+                        <label for="delai">Délai de traitement</label>
+
+                        <select id="delai" name="delai">
+                            <option value="">Tous les délais</option>
+                            <option value="court">Délai court</option>
+                            <option value="moyen">Délai moyen</option>
+                            <option value="long">Délai long</option>
+                        </select>
+                    </div>
+
+                    <button type="submit">Appliquer les filtres</button>
+
+                    <a href="./services.html">Réinitialiser les filtres</a>
+
+                </form>
+
+            </aside>
+
+            <!-- Résultats des services -->
+            <section aria-label="Résultats des services">
+
+                <form action="./services.html" method="get">
+
+                    <label for="tri">Trier par</label>
+
+                    <select id="tri" name="tri">
+                        <option value="nom-asc">Nom, de A à Z</option>
+                        <option value="nom-desc">Nom, de Z à A</option>
+                    </select>
+
+                    <button type="submit">Trier</button>
+
+                </form>
+
+                <ul>
+
+                    <li>
+                        <article>
+                            <img src="/public/img/logement-800.jpg"
+                                 width="800" height="533"
+                                 alt="Illustration de l'accompagnement à la garantie locative">
+
+                            <p>Logement</p>
+
+                            <h2>
+                                <a href="./service.html?id=1">
+                                    Accompagnement garantie locative
+                                </a>
+                            </h2>
+
+                            <p>Constituer votre demande de garantie.</p>
+                            <p>6 places disponibles</p>
+
+                            <a href="./service.html?id=1">Voir la fiche</a>
+                        </article>
+                    </li>
+
+                    <li>
+                        <article>
+                            <img src="/public/img/aide-800.jpg"
+                                 width="800" height="533"
+                                 alt="Illustration du service d'aide d'urgence">
+
+                            <p>Aides</p>
+
+                            <h2>
+                                <a href="./service.html?id=2">Aide d'urgence</a>
+                            </h2>
+
+                            <p>Une aide financière ponctuelle en cas de difficulté soudaine.</p>
+                            <p>15 places disponibles</p>
+
+                            <a href="./service.html?id=2">Voir la fiche</a>
+                        </article>
+                    </li>
+
+                    <li>
+                        <article>
+                            <img src="/public/img/logement-800.jpg"
+                                 width="800" height="533"
+                                 alt="Illustration de l'aide à la recherche de logement">
+
+                            <p>Logement</p>
+
+                            <h2>
+                                <a href="./service.html?id=3">
+                                    Aide à la recherche de logement
+                                </a>
+                            </h2>
+
+                            <p>Un rendez-vous pour cibler vos besoins en logement.</p>
+                            <p>10 places disponibles</p>
+
+                            <a href="./service.html?id=3">Voir la fiche</a>
+                        </article>
+                    </li>
+
+                    <li>
+                        <article>
+                            <img src="/public/img/colocation-800.jpg"
+                                 width="800" height="533"
+                                 alt="Illustration de la colocation étudiante">
+
+                            <p>Logement</p>
+
+                            <h2>
+                                <a href="./service.html?id=4">Colocation étudiante</a>
+                            </h2>
+
+                            <p>Trouver une chambre ou un colocataire parmi les étudiants du campus.</p>
+                            <p>30 places disponibles</p>
+
+                            <a href="./service.html?id=4">Voir la fiche</a>
+                        </article>
+                    </li>
+
+                    <li>
+                        <article>
+                            <img src="/public/img/impression-800.jpg"
+                                 width="800" height="533"
+                                 alt="Illustration de l'impression grand format">
+
+                            <p>Prêt de matériel</p>
+
+                            <h2>
+                                <a href="./service.html?id=5">Impression grand format</a>
+                            </h2>
+
+                            <p>Affiches A1 et A0 pour une soutenance ou un salon.</p>
+                            <p>20 places disponibles</p>
+
+                            <a href="./service.html?id=5">Voir la fiche</a>
+                        </article>
+                    </li>
+
+                    <li>
+                        <article>
+                            <img src="/public/img/sport-800.jpg"
+                                 width="800" height="533"
+                                 alt="Illustration de l'inscription au sport universitaire">
+
+                            <p>Sport</p>
+
+                            <h2>
+                                <a href="./service.html?id=6">
+                                    Inscription au sport universitaire
+                                </a>
+                            </h2>
+
+                            <p>Une activité sportive par semestre, de l'escalade au volley.</p>
+                            <p>40 places disponibles</p>
+
+                            <a href="./service.html?id=6">Voir la fiche</a>
+                        </article>
+                    </li>
+
+                    <li>
+                        <article>
+                            <img src="/public/img/job-800.jpg"
+                                 width="800" height="533"
+                                 alt="Illustration du service de job étudiant">
+
+                            <p>Aides</p>
+
+                            <h2>
+                                <a href="./service.html?id=7">Job étudiant sur le campus</a>
+                            </h2>
+
+                            <p>Des missions rémunérées à la bibliothèque et à l'accueil.</p>
+                            <p>9 places disponibles</p>
+
+                            <a href="./service.html?id=7">Voir la fiche</a>
+                        </article>
+                    </li>
+
+                    <li>
+                        <article>
+                            <img src="/public/img/portable-800.jpg"
+                                 width="800" height="533"
+                                 alt="Illustration du prêt d'ordinateur portable">
+
+                            <p>Prêt de matériel</p>
+
+                            <h2>
+                                <a href="./service.html?id=8">Prêt d'ordinateur portable</a>
+                            </h2>
+
+                            <p>Un portable pour la durée d'une réparation ou d'un examen sur machine.</p>
+                            <p>Complet</p>
+
+                            <a href="./service.html?id=8">Voir la fiche</a>
+                        </article>
+                    </li>
+
+                    <li>
+                        <article>
+                            <img src="/public/img/materiel-800.jpg"
+                                 width="800" height="533"
+                                 alt="Illustration du prêt de caméra">
+
+                            <p>Prêt de matériel</p>
+
+                            <h2>
+                                <a href="./service.html?id=9">Prêt de caméra</a>
+                            </h2>
+
+                            <p>Une caméra hybride et deux objectifs, pour un tournage de cours ou de projet.</p>
+                            <p>3 places disponibles</p>
+
+                            <a href="./service.html?id=9">Voir la fiche</a>
+                        </article>
+                    </li>
+
+                </ul>
+
+                <!-- Pagination -->
+                <nav aria-label="Pagination des services">
+                    <ol>
+                        <li>
+                            <a href="./services.html?page=1">Précédent</a>
+                        </li>
+                        <li>
+                            <a href="./services.html?page=1" aria-current="page">1</a>
+                        </li>
+                        <li>
+                            <a href="./services.html?page=2">2</a>
+                        </li>
+                        <li>
+                            <a href="./services.html?page=2">Suivant</a>
+                        </li>
+                    </ol>
+                </nav>
+
+                <p>Page 1 sur 2</p>
+
+            </section>
+
+        </div>
+
+    </main>
+
+    <!-- Footer chargé automatiquement -->
+    <div id="footer"></div>
+
+    <script type="module" src="/src/main.js"></script>
+
+</body>
+</html>

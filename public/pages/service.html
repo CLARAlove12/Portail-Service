@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prêt de caméra · Portail des services</title>
+</head>
+
+<body>
+
+    <!-- Header chargé automatiquement -->
+    <div id="header"></div>
+
+    <main id="contenu">
+
+        <!-- Fil d'Ariane -->
+        <nav aria-label="Fil d'Ariane">
+            <ol>
+                <li><a href="./index.html">Accueil</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li aria-current="page">Prêt de caméra</li>
+            </ol>
+        </nav>
+
+        <!-- Fiche du service -->
+        <article>
+
+            <header>
+
+                <img src="/public/img/camera-800.jpg"
+                     width="800"
+                     height="533"
+                     alt="Illustration du service de prêt de caméra">
+
+                <div>
+
+                    <p>Prêt de matériel</p>
+
+                    <h1>Prêt de caméra</h1>
+
+                    <p>
+                        Une caméra hybride et deux objectifs,
+                        pour un tournage de cours ou de projet.
+                    </p>
+
+                    <!-- Informations du service -->
+                    <dl>
+
+                        <div>
+                            <dt>Lieu</dt>
+                            <dd>Bâtiment A, rez-de-chaussée</dd>
+                        </div>
+
+                        <div>
+                            <dt>Délai</dt>
+                            <dd>2 jours ouvrés</dd>
+                        </div>
+
+                        <div>
+                            <dt>Places</dt>
+                            <dd>3 disponibles</dd>
+                        </div>
+
+                    </dl>
+
+                    <!-- Actions -->
+                    <p>
+                        <a href="./demande.html?id=9">
+                            Faire une demande
+                        </a>
+
+                        <button type="button">
+                            Ajouter aux favoris
+                        </button>
+                    </p>
+
+                </div>
+
+            </header>
+
+            <!-- Description détaillée -->
+            <section aria-labelledby="service-detail">
+
+                <h2 id="service-detail">Le service en détail</h2>
+
+                <p>
+                    Le prêt dure trois jours ouvrés.
+                    Une courte prise en main est proposée au premier emprunt ;
+                    la batterie est rendue chargée.
+                </p>
+
+            </section>
+
+        </article>
+
+        <!-- Services de la même catégorie -->
+        <section aria-labelledby="meme-categorie">
+
+            <h2 id="meme-categorie">Dans la même catégorie</h2>
+
+            <ul>
+
+                <li>
+                    <article>
+
+                        <img src="./img/materiel-800.jpg"
+                             width="800"
+                             height="533"
+                             alt="Illustration du prêt de matériel">
+
+                        <p>Prêt de matériel</p>
+
+                        <h3>
+                            <a href="./service.html?id=10">
+                                Prêt de matériel
+                            </a>
+                        </h3>
+
+                        <p>
+                            Empruntez un trépied, un micro ou une tablette
+                            graphique pour un projet.
+                        </p>
+
+                        <p>12 places disponibles</p>
+
+                    </article>
+                </li>
+
+                <li>
+                    <article>
+
+                        <img src="./img/portable.jpg"
+                             width="800"
+                             height="533"
+                             alt="Illustration du prêt d'ordinateur portable">
+
+                        <p>Prêt de matériel</p>
+
+                        <h3>
+                            <a href="./service.html?id=8">
+                                Prêt d'ordinateur portable
+                            </a>
+                        </h3>
+
+                        <p>
+                            Un portable pour la durée d'une réparation
+                            ou d'un examen sur machine.
+                        </p>
+
+                        <p>Complet</p>
+
+                    </article>
+                </li>
+
+                <li>
+                    <article>
+
+                        <img src="./img/impression.jpg"
+                             width="800"
+                             height="533"
+                             alt="Illustration de l'impression grand format">
+
+                        <p>Prêt de matériel</p>
+
+                        <h3>
+                            <a href="./service.html?id=5">
+                                Impression grand format
+                            </a>
+                        </h3>
+
+                        <p>
+                            Affiches A1 et A0 pour une soutenance ou un salon.
+                        </p>
+
+                        <p>20 places disponibles</p>
+
+                    </article>
+                </li>
+
+            </ul>
+
+        </section>
+
+    </main>
+
+    <!-- Footer chargé automatiquement -->
+    <div id="footer"></div>
+
+    <script type="module" src="/src/main.js"></script>
+
+</body>
+</html>
