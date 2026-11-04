@@ -130,3 +130,29 @@ Score réel :
 13/14
 Accessibilité
 Ces vérifications permettent de connaître les possibilités d'amélioration de l'accessibilité de votre application Web. La détection automatique ne peut détecter qu'une partie des problèmes et ne garantit pas l'accessibilité de votre application Web. Il est donc conseillé d'effectuer également un test manuel.
+
+TP2
+1
+ erreur renvoyé lorsqu'on ne rempli pas les champs obligatoires
+
+ Please fill out this field au niveau des champ obligatoire 
+
+2 Tests clavier et accessibilité
+
+**Navigation au clavier**
+- Nombre de pressions sur Tab pour atteindre le champ Nom : 1
+- Ordre de navigation :Nom, Prénom, Email, Ville, Choix de srvices, Dates, créneau horaire souhaité, Commentaires, accepter que les  coordonées  soit utilisé, bouton envoyé la demande, Annuler
+- Focus visible : Oui 
+- Navigation dans les boutons radio : c'est Ok
+- Navigation dans le formulaire sans souris : bien sûre
+
+**Validation native**
+- Navigateur : Google Chrome
+- Version : Version 156.0.8078.74 (Official Build) (64-bit)
+- Message exact lorsque le champ Nom est vide : fill out this field
+
+**Lecteur d'écran**
+- Lecteur utilisé :
+- Annonce prévue pour le champ E-mail :
+- Annonce réellement entendue :
+ 
