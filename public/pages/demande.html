@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demande de service</title>
+</head>
+<body>
+
+<h1>Faire une demande</h1>
+   <p>les champs marqué d'un astérisque sont obligatoires</p>
+
+   <div>
+    <div>
+    <form class="coordonnees" action="/submit-coordonnees" method="POST">
+            
+         <section>
+           <label for="name">Nom </label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email </label>
+            <input type="email" id="email" name="email" required>
+
+            <p>Format:nom@domaine.fr <br> saisissez une adresse complète par exemple nom@domaine.fr .</p>
+         </section>
+
+         <section>
+            <label for="name">Service demandé *</label>
+            <input type="text" id="service" name="service" required>
+
+            <label for="date">Date souhaitée *</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="créneau">Créneau horaire souhaité *</label>
+            <select id="créneau" name="créneau" required>
+                <option value="matin">Matin</option>
+                <option value="après-midi">Après-midi</option>
+            </select>
+
+            <label for="details">Commentaires</label>
+            <textarea id="commentaires" name="commentaires" placeholder="Tournage du projet vidéo de groupe."></textarea>
+           <p>500 caractères au plus</p>
+ 
+           <label for="j'accepte">J'accepte que mes coordonnées servent au traitement de la demande *</label>
+            <input type="checkbox" id="j'accepte" name="j'accepte">
+              
+            <button type="submit">Envoyer la demande</button>
+            <button type="reset">Annuler</button>
+            </section>
+
+   </div>
+   <h2>pret de caméra</h2>
+    <p>Délai: 2 jours ouvrés <br> 3 places disponibles <br> Batiment A, rez-de-chaussée</p>
+   </div>
+</body>
+</html>
