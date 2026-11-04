@@ -97,3 +97,36 @@ pied de page: titres + paragraphe
 
 
 
+#champ recherche
+
+Name: "Rechercher"
+aria-labelledby: Non défini
+aria-label: Non défini
+Depuis label: Non défini
+Contenu: "Rechercher"
+title: Non défini
+Rôle: button
+Saisie utilisateur non valide: false
+Sélectionnable: true
+
+
+#lien carte
+
+Name: "Prêt de matériels 4 services"
+aria-labelledby: Non défini
+aria-label: Non défini
+Contenu: "Prêt de matériels 4 services"
+title: Non défini
+Rôle: link
+Sélectionnable: true
+url: "file:///C:/Users/DELL/Documents/portailse
+
+#menu principal
+
+19) 
+prédiction de score :10/14
+
+Score réel : 
+13/14
+Accessibilité
+Ces vérifications permettent de connaître les possibilités d'amélioration de l'accessibilité de votre application Web. La détection automatique ne peut détecter qu'une partie des problèmes et ne garantit pas l'accessibilité de votre application Web. Il est donc conseillé d'effectuer également un test manuel.
