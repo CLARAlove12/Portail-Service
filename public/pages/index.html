@@ -93,7 +93,16 @@
         </div>
 
          <div>
-                <img src="/Portail-Service/public/img/sport-480.jpg" alt=""> 
+                <img src="/public/img/sport-480.jpg" 
+                sizes="(max-width: 600PX) 100vw,
+                (max-width: 900px) 50vw,
+                33vm"
+                srcset="/public/img/sport-480.webp 480w,
+                /public/img/sport-800.webp 800w,
+                /public/img/sport-1200.webp 1200w"
+                width="1200" height="800"
+                alt="Illustration du service d'inscription au sport universitaire"
+                loading="lazy"> 
                 <div>Sport</div>
                 <h3>Inscription au sport universitaire</h3>
                 <p>une activité sportive par semaine, de l'escalade au volley</p>
