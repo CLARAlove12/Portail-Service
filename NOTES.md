@@ -152,7 +152,7 @@ TP2
 - Message exact lorsque le champ Nom est vide : fill out this field
 
 **Lecteur d'écran**
-- Lecteur utilisé :
-- Annonce prévue pour le champ E-mail :
+- Lecteur utilisé :j'ai téléchargé NVDA comme lesteur d'écran mais  je n'arrive  pas  a bien le  configurer pour  l'utiliser
+- Annonce prévue pour le champ E-mail :Adresse e-mail, champ de saisie, obligatoire.
 - Annonce réellement entendue :
  
