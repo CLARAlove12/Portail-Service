@@ -14,7 +14,8 @@
     <div>
     <form class="coordonnees" action="/submit-coordonnees" method="POST">
             
-         <section>
+            <fieldset >
+                <legend> Vos Coordonnées</legend>
            <label for="name">Nom </label>
             <input type="text" id="name" name="name" required>
 
@@ -22,9 +23,10 @@
             <input type="email" id="email" name="email" required>
 
             <p>Format:nom@domaine.fr <br> saisissez une adresse complète par exemple nom@domaine.fr .</p>
-         </section>
+         </fieldset>
 
-         <section>
+            <fieldset >
+                <legend> Votredemande</legend>
             <label for="name">Service demandé *</label>
             <input type="text" id="service" name="service" required>
 
@@ -46,8 +48,8 @@
               
             <button type="submit">Envoyer la demande</button>
             <button type="reset">Annuler</button>
-            </section>
-
+        </fieldset>    
+</form>
    </div>
    <h2>pret de caméra</h2>
     <p>Délai: 2 jours ouvrés <br> 3 places disponibles <br> Batiment A, rez-de-chaussée</p>
