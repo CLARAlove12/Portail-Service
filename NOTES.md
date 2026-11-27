@@ -19,9 +19,9 @@ cd portail
 npm install
 npm run dev
 
-1-)La version de vite afficher est la version 9.3.3
+1-La version de vite afficher est la version 9.3.3
 
-2-)Comment nous voyons la page d'accueil
+2-Comment nous voyons la page d'accueil
 
 
 SECTION
@@ -95,9 +95,11 @@ pied de page: titres + paragraphe
 
 
 
-Je m'attends à ce que Chrome sélectionne une image proche de 1200 px pour une image occupant presque toute la largeur de l'écran, puisque le DPR est de 3.
+Je m'attends à ce que Chrome sélectionne une image proche de 1200 px soit 1200 pour une image occupant presque toute la largeur de l'écran, puisque le DPR est de 3.
+Car 3*390 = 1170
 
-7)
+
+7
  Images responsives
 
 **Configuration du test**
