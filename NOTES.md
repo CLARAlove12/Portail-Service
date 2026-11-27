@@ -19,9 +19,9 @@ cd portail
 npm install
 npm run dev
 
-1-)La version de vite afficher est la version 9.3.3
+1-La version de vite afficher est la version 9.3.3
 
-2-)Comment nous voyons la page d'accueil
+2-Comment nous voyons la page d'accueil
 
 
 SECTION
@@ -92,6 +92,49 @@ titre le service en détail et une paragraphe,
 titre dans la même catégorie : catégories et description de chacune 
 
 pied de page: titres + paragraphe
+
+
+
+Je m'attends à ce que Chrome sélectionne une image proche de 1200 px soit 1200 pour une image occupant presque toute la largeur de l'écran, puisque le DPR est de 3.
+Car 3*390 = 1170
+
+
+7
+ Images responsives
+
+**Configuration du test**
+- Navigateur : Google Chrome
+- Appareil simulé : iPhone 12 Pro
+- format ou tails de l'écran : 390 × 844 px
+
+**Résultats – index.html**
+
+| Image | Fichier chargé | Format | Taille |
+|---|---|---|---|
+| Caméra | camera-1200.webp | WebP | 5,5 kB |
+| Salle | salle-1200.webp | WebP | 3,7 kB |
+| Sport | sport-1200.webp | WebP | 4,5 kB |
+
+**Résultats – services.html**
+
+| Image | Fichier chargé | Format | Taille |
+|---|---|---|---|
+| Logement | logement-1200.webp | WebP | 5,4 kB |
+| Aide | aide-1200.webp | WebP | 8,7 kB |
+| Colocation | colocation-1200.webp | WebP | 8,4 kB |
+
+**Résultats – service.html**
+
+| Image | Fichier chargé | Format | Taille |
+|---|---|---|---|
+| Matériel | materiel-1200.webp | WebP | 4,4 kB |
+| Ordinateur portable | portable-1200.webp | WebP | 3,9 kB |
+| Impression | impression-1200.webp | WebP | 3,9 kB |
+| Caméra | camera-1200.webp | WebP | 5,5 kB |
+
+**Analyse**
+- Format WebP observé sur toutes les images responsives.
+- La version 1200 px a été sélectionnée sur les trois pages.
 
 
 

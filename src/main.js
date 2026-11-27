@@ -1,5 +1,3 @@
-// préparation de l'enronnement
-
 // Fonction pour charger un composant HTML
 async function loadComponent(elementId, filePath) {
 
